@@ -1,0 +1,95 @@
+#Keys{
+    display: grid;
+	width: 10px;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+	padding: 10px;
+    
+
+}
+button{
+    border-radius: 50px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color:hsl(0, 0%, 30%);
+    color: aliceblue;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+#sum{
+    width: 220px;;
+    margin-left:0;
+    margin-right:0;
+    padding-left:0;
+    padding-right:0;
+    display:block;
+    margin-left: 15px;
+    border-radius: 100px 50px  100px 50px  100px 50px;
+    
+    
+    
+    
+
+}
+#Calculator{
+    background-color: black;
+    font-family:Arial, sans-serif;
+    width: 250px;
+    border-radius: 25px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    padding-bottom: 20px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+    
+}
+#display{
+    height: 65px;
+    width: 246px;
+    background-color:hsl(0, 0%, 40%);
+    border:1px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    border-color: beige;
+}
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(backgroundmath.jpg);
+}
+button:hover{
+    background-color:hsl(0, 0%, 60%);
+}
+.color{
+    background-color: orange;
+}
+.color:hover{
+    background-color: #FFBF00;
+    
+}
+button:active{
+    background-color:hsl(0, 0%, 80%);
+}
+.color:active{
+    background-color:#e2c56e;
+
+}
+h1{
+    color:darkslateblue;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+    background-image: linear-gradient(to left, #bc7efa, #ffffff);
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+ }
+    
